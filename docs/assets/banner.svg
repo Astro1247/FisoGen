@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">FisoGen</title>
+  <desc id="desc">A dark indigo banner with an illustrated mountain image and a cost chart.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#10152b"/><stop offset="1" stop-color="#25204f"/>
+    </linearGradient>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#4b51ae"/><stop offset="1" stop-color="#9eece9"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b2adff" stroke-opacity=".10"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <rect x="690" width="500" height="360" rx="24" fill="url(#grid)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="62" y="88" fill="#9eece9" font-size="20" font-weight="700" letter-spacing="4">PORTABLE WINDOWS APP</text>
+    <text x="57" y="182" fill="#fff" font-size="84" font-weight="700">FisoGen</text>
+    <text x="62" y="232" fill="#c8cae4" font-size="28">Create, batch, and track image costs.</text>
+    <path d="M63 285h58" stroke="#9eece9" stroke-width="4" stroke-linecap="round"/>
+    <text x="139" y="292" fill="#e1e0f4" font-size="20">By Astro</text>
+  </g>
+  <rect x="825" y="46" width="300" height="209" rx="24" fill="#141a33" stroke="#7779b2"/>
+  <rect x="842" y="63" width="266" height="175" rx="12" fill="url(#sky)"/>
+  <circle cx="1047" cy="108" r="22" fill="#faf1bf"/>
+  <path d="M842 214l69-84 52 61 43-43 102 71v6q0 13-13 13H855q-13 0-13-13Z" fill="#39437e"/>
+  <path d="M842 226l64-35 51 21 55-17 96 29v1q0 13-13 13H855q-13 0-13-12Z" fill="#242d58"/>
+  <rect x="760" y="201" width="176" height="111" rx="17" fill="#1b2345" stroke="#7779b2"/>
+  <path d="M783 285h130" stroke="#696e9f"/>
+  <path d="M792 272l30-19 28 8 27-20 28-17" fill="none" stroke="#9eece9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="905" cy="224" r="5" fill="#9eece9"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">FisoGen workflow</title>
+  <desc id="desc">Set request options, send a standard request or a batch, then review images and costs in the gallery.</desc>
+  <rect width="1200" height="190" rx="22" fill="#13182e"/>
+  <g fill="#212847" stroke="#404b75">
+    <rect x="24" y="24" width="345" height="142" rx="15"/>
+    <rect x="427" y="24" width="345" height="142" rx="15"/>
+    <rect x="830" y="24" width="346" height="142" rx="15"/>
+  </g>
+  <path d="M382 95h31m-7-7 7 7-7 7m378-7h31m-7-7 7 7-7 7" fill="none" stroke="#9eece9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g fill="#9eece9" font-size="27" font-weight="700">
+      <text x="49" y="76">Compose</text>
+      <text x="452" y="76">Submit</text>
+      <text x="855" y="76">Review</text>
+    </g>
+    <g fill="#e3e4f2" font-size="20">
+      <text x="49" y="111">Set the prompt, references,</text><text x="49" y="139">size, and quality.</text>
+      <text x="452" y="111">Send a Standard request</text><text x="452" y="139">or queue a Batch job.</text>
+      <text x="855" y="111">Find images, usage, and</text><text x="855" y="139">costs in Gallery &amp; History.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+# Build products and local environments
+/target/
+/dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Portable app data and credentials
+outputs/
+batches/
+history.jsonl
+settings.json
+.image-cost-studio.lock
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
