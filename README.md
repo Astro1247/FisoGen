@@ -4,7 +4,7 @@
 
 **A portable Windows desktop app for generating and editing images with the OpenAI API, planning batch work, and tracking what requests cost.**
 
-[Quick start](#quick-start) · [Build from source](#build-from-source) · [Usage reference](docs/reference.md) · [MIT license](LICENSE)
+**[Download FisoGen for Windows x64](https://github.com/Astro1247/FisoGen/releases/latest/download/FisoGen.exe)** · [Screenshots](#screenshots) · [Quick start](#quick-start) · [Build from source](#build-from-source) · [Usage reference](docs/reference.md) · [MIT license](LICENSE)
 
 ## What you can do
 
@@ -15,11 +15,23 @@
 | **Plan and track cost** | Compare Standard and Batch estimates, inspect reported token usage, and refresh published rates or use your own. |
 | **Review and export** | Browse images and request details, filter history, and export CSV or JSONL in Pro mode. |
 
-![Workflow from creating or batching a request to reviewing images and costs in the gallery.](docs/assets/workflow.svg)
+## Screenshots
+
+**Create / Edit** · Set your prompt, image dimensions, quality, and format.
+
+![FisoGen Create / Edit screen with a sample travel-poster prompt and image settings.](docs/assets/fisogen-create.png)
+
+**Batch draft** · Review queued prompts and their settings before submitting a job.
+
+![FisoGen Batch view with two queued poster prompts.](docs/assets/fisogen-batch.png)
+
+**Prices & Planner** · Compare estimated request costs and budget capacity.
+
+![FisoGen cost planner comparing Standard and Batch pricing for a sample workload.](docs/assets/fisogen-planner.png)
 
 ## Quick start
 
-1. Download `FisoGen.exe` for Windows x64 from this repository's **Releases** tab, or build it from source.
+1. Download [FisoGen.exe for Windows x64](https://github.com/Astro1247/FisoGen/releases/latest/download/FisoGen.exe), or [build it from source](#build-from-source).
 2. Put the executable in a writable folder and open it.
 3. Open **Settings** to choose English, Ukrainian, or Russian. Start in **Simple** for single-image creation and the gallery. Switch to **Pro** for advanced settings, Batch, planning, and exports.
 4. Enter your OpenAI API key in the app before sending a generation, edit, or Batch request.
