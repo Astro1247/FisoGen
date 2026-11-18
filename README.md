@@ -19,8 +19,8 @@
 
 ## Quick start
 
-1. Build the portable executable using the steps below.
-2. Copy `dist\FisoGen.exe` into a writable folder and open it.
+1. Download `FisoGen.exe` for Windows x64 from this repository's **Releases** tab, or build it from source.
+2. Put the executable in a writable folder and open it.
 3. Open **Settings** to choose English, Ukrainian, or Russian. Start in **Simple** for single-image creation and the gallery. Switch to **Pro** for advanced settings, Batch, planning, and exports.
 4. Enter your OpenAI API key in the app before sending a generation, edit, or Batch request.
 
@@ -49,6 +49,17 @@ cargo test --locked --target x86_64-pc-windows-msvc
 ```
 
 To add a translation, copy a dictionary in `locales/`, preserve its English keys and `{placeholders}`, and register the language in `src/i18n.rs`.
+
+### Publishing a release
+
+Push a new version tag from a commit that contains the [release workflow](.github/workflows/release.yml). If `origin` points to the GitHub repository, run the following from that commit.
+
+```powershell
+git tag -a v1.0.0 -m "FisoGen v1.0.0"
+git push origin v1.0.0
+```
+
+GitHub Actions runs the Rust tests and builds the portable Windows x64 executable. After both succeed, it publishes a GitHub Release with generated notes and attaches `FisoGen.exe`.
 
 ## License
 
